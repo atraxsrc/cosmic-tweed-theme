@@ -1,0 +1,41 @@
+# 256-colour codes nearest the Tweed palette on flint (lsd 1.0.0 does not accept
+# #hex here): 144 tan, 173 brick, 210 salmon, 246 moss, 223 cream,
+# 248 olive, 246 putty, 242 ash.
+user: 223
+group: 246
+permission:
+  read: 246
+  write: 223
+  exec: 144
+  exec-sticky: 144
+  no-access: 242
+  octal: 248
+  acl: 248
+  context: 248
+date:
+  hour-old: 223
+  day-old: 246
+  older: 242
+size:
+  none: 242
+  small: 246
+  medium: 223
+  large: 173
+inode:
+  valid: 246
+  invalid: 173
+links:
+  valid: 248
+  invalid: 173
+tree-edge: 242
+git-status:
+  default: 242
+  unmodified: 242
+  ignored: 242
+  new-in-index: 246
+  new-in-workdir: 246
+  typechange: 223
+  deleted: 173
+  renamed: 248
+  modified: 210
+  conflicted: 173
