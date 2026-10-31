@@ -24,4 +24,4 @@ fi
 
 echo
 echo "Done. In Claude Desktop press Ctrl+Shift+T and pick cosmic-tweed."
-echo "Tweed is dark only; Settings -> Appearance changes nothing."
+echo "Tweed is the dark half; Settings -> Appearance -> Light shows Tweed Day."
