@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Cosmic Tweed",
+  "version": "1.0",
+  "description": "Flint theme from the COSMIC Tweed rice: moss icons, one tan accent.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [41, 43, 49],
+      "frame_inactive": [41, 43, 49],
+      "frame_incognito": [41, 43, 49],
+      "frame_incognito_inactive": [41, 43, 49],
+      "background_tab": [41, 43, 49],
+      "background_tab_inactive": [41, 43, 49],
+      "background_tab_incognito": [41, 43, 49],
+      "background_tab_incognito_inactive": [41, 43, 49],
+      "toolbar": [48, 50, 58],
+      "tab_text": [189, 160, 127],
+      "tab_background_text": [145, 158, 133],
+      "tab_background_text_inactive": [145, 158, 133],
+      "tab_background_text_incognito": [145, 158, 133],
+      "tab_background_text_incognito_inactive": [145, 158, 133],
+      "bookmark_text": [214, 209, 201],
+      "toolbar_button_icon": [145, 158, 133],
+      "omnibox_background": [64, 67, 76],
+      "omnibox_text": [214, 209, 201],
+      "ntp_background": [41, 43, 49],
+      "ntp_text": [214, 209, 201],
+      "ntp_link": [189, 160, 127]
+    }
+  }
+}

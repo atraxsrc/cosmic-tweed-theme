@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "Cosmic Tweed",
+  "version": "1.0",
+  "description": "Flint theme from the COSMIC Tweed rice: moss icons, one tan accent.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{110f90e5-5fbd-4e43-859d-b04be3e5044f}"
+    }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "toolbar": "#30323A",
+      "toolbar_text": "#d6d1c9",
+      "frame": "#292B31",
+      "tab_background_text": "#919e85",
+      "tab_text": "#bda07f",
+      "toolbar_field": "#40434c",
+      "toolbar_field_text": "#d6d1c9",
+      "toolbar_field_border_focus": "#BDA07F",
+      "toolbar_field_highlight": "#BDA07F",
+      "toolbar_field_highlight_text": "#292B31",
+      "tab_line": "#BDA07F",
+      "popup": "#30323A",
+      "popup_text": "#d6d1c9",
+      "button_background_active": "#BDA07F",
+      "button_background_hover": "#40434c",
+      "frame_inactive": "#292B31",
+      "icons_attention": "#BDA07F",
+      "icons": "#919e85",
+      "ntp_background": "#292B31",
+      "ntp_text": "#d6d1c9",
+      "popup_border": "#A8B49D",
+      "popup_highlight_text": "#292B31",
+      "popup_highlight": "#BDA07F",
+      "sidebar_border": "#40434c",
+      "sidebar_highlight_text": "#292B31",
+      "sidebar_highlight": "#BDA07F",
+      "sidebar_text": "#d6d1c9",
+      "tab_loading": "#BDA07F"
+    }
+  }
+}

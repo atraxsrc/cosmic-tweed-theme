@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Tweed - userContent.css
+   Ported from the DarkGold baseline, recoloured for the COSMIC Tweed palette
+
+   New tab / home / private pages only:
+     - tan accent and focus, olive links
+     - tan focus ring on shortcut tiles, tan personalize button
+     - shortcut artwork hidden (tiles stay, icons go blank)
+   No size / position changes.
+
+   Install:  chrome/userContent.css   (same pref + restart as userChrome.css)
+   ========================================================================== */
+
+@-moz-document url-prefix("about:newtab"),
+               url-prefix("about:home"),
+               url-prefix("about:privatebrowsing") {
+
+  :root {
+    --newtab-primary-action-background: #BDA07F !important;
+    --newtab-primary-action-background-dimmed: rgba(189, 160, 127, 0.25) !important;
+
+    --color-accent-primary: #BDA07F !important;
+    --color-accent-primary-hover: #C7AF93 !important;
+    --color-accent-primary-active: #BDA07F !important;
+
+    --newtab-focus-border: #BDA07F !important;
+    --newtab-focus-outline: #BDA07F !important;
+    --newtab-textbox-focus-color: #BDA07F !important;
+
+    --in-content-accent-color: #BDA07F !important;
+    --in-content-accent-color-active: #919E85 !important;
+    --in-content-focus-outline-color: #BDA07F !important;
+
+    --link-color: #A8B49D !important;
+    --link-color-hover: #F3EFE8 !important;
+
+    --focus-outline-color: #BDA07F !important;
+    --focus-outline: 2px solid #BDA07F !important;
+    --newtab-button-focus-border: #BDA07F !important;
+    --button-background-color: #BDA07F !important;
+    --button-text-color: #292B31 !important;
+  }
+
+  .top-site-outer:is(:focus, :focus-visible, .active) .tile,
+  .top-site-outer .top-site-button:focus .tile,
+  .top-site-outer .top-site-button:focus-visible .tile {
+    outline: 2px solid #BDA07F !important;
+    border-color: #BDA07F !important;
+  }
+
+  .personalize-button {
+    background-color: #BDA07F !important;
+    color: #292B31 !important;
+  }
+
+  /* Hide shortcut artwork so tiles stay blank */
+  .top-site-icon,
+  .top-site-icon.rich-icon,
+  .top-site-icon.default-icon,
+  .screenshot,
+  .screenshot.active,
+  .letter-fallback {
+    background-image: none !important;
+    background-color: transparent !important;
+    opacity: 0 !important;
+  }
+}
