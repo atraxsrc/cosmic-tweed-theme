@@ -13,6 +13,7 @@ the light half is [cosmic-tweedday-theme](https://github.com/atraxsrc/cosmic-twe
 ![COSMIC](https://img.shields.io/badge/COSMIC-1.0.0-919e85?style=for-the-badge)
 ![Tweed](https://img.shields.io/badge/Theme-Tweed-292b31?style=for-the-badge&labelColor=bda07f)
 ![Firefox](https://img.shields.io/badge/Firefox-Tweed-bda07f?style=for-the-badge&logo=firefox-browser&logoColor=white)
+[![Gallery](https://img.shields.io/badge/Gallery-All_rices-bda07f?style=for-the-badge)](https://atraxsrc.github.io/cosmic-rices/)
 ![License](https://img.shields.io/badge/License-MIT-9f9a91?style=for-the-badge)
 
 </div>
