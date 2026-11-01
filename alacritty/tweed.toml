@@ -1,0 +1,80 @@
+# Tweed for Alacritty, part of cosmic-tweed-theme (MIT).
+# Colours follow the COSMIC Terminal scheme (cosmic-term/).
+#
+# Install: ./alacritty/install.sh puts this in ~/.config/alacritty/themes/,
+# then in ~/.config/alacritty/alacritty.toml:
+#   [general]
+#   import = ["~/.config/alacritty/themes/tweed.toml"]
+# (Alacritty 0.13: a top-level `import = [...]` line instead.)
+
+[colors.primary]
+background = "#292B31"
+foreground = "#D6D1C9"
+bright_foreground = "#F3EFE8"
+dim_foreground = "#9F9A91"
+
+[colors.cursor]
+text = "#292B31"
+cursor = "#BDA07F"
+
+[colors.vi_mode_cursor]
+text = "#292B31"
+cursor = "#F28B7C"
+
+[colors.selection]
+text = "CellForeground"
+background = "#40434C"
+
+[colors.search.matches]
+foreground = "#292B31"
+background = "#F3E9BD"
+
+[colors.search.focused_match]
+foreground = "#292B31"
+background = "#BDA07F"
+
+[colors.hints.start]
+foreground = "#292B31"
+background = "#F28B7C"
+
+[colors.hints.end]
+foreground = "#292B31"
+background = "#F3E9BD"
+
+[colors.footer_bar]
+foreground = "#D6D1C9"
+background = "#30323A"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.normal]
+black   = "#151619"
+red     = "#E77D6C"
+green   = "#919E85"
+yellow  = "#F3E9BD"
+blue    = "#BDA07F"
+magenta = "#F28B7C"
+cyan    = "#9B907F"
+white   = "#E8E3DA"
+
+[colors.bright]
+black   = "#6B6B6E"
+red     = "#ED9C8F"
+green   = "#A3AE99"
+yellow  = "#F8F2D7"
+blue    = "#C7AF93"
+magenta = "#F6ACA1"
+cyan    = "#B7A593"
+white   = "#F3EFE8"
+
+[colors.dim]
+black   = "#292B31"
+red     = "#DD472F"
+green   = "#6D7A61"
+yellow  = "#E6D278"
+blue    = "#6B7482"
+magenta = "#EB4932"
+cyan    = "#827765"
+white   = "#ABA69C"
