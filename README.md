@@ -128,6 +128,8 @@ carry it with flint text on top.
 │   ├── config.yaml              # theme: custom
 │   ├── colors.yaml              # permission / size / date / git columns
 │   └── install.sh
+├── notesnook
+│   └── cosmic-tweed.json        # Notesnook theme, Tweed (dark)
 ├── nvim                         # Neovim colorscheme, LazyVim spec, RON syntax, install.sh
 ├── obsidian
 │   ├── cosmic-tweed.css         # CSS snippet, Tweed (dark) + Tweed Day (light)
@@ -414,6 +416,22 @@ in ![#F3E9BD](https://placehold.co/12x12/f3e9bd/f3e9bd.png) `#F3E9BD`. The same 
 
 It copies the file into the vault's `.obsidian/snippets/`. Snippets are per
 vault, so run it once per vault.
+
+---
+
+## Notesnook
+
+`notesnook/cosmic-tweed.json` is a [Notesnook](https://notesnook.com/) theme for Tweed,
+built from the same palette as the Obsidian snippet: window, list and sidebar
+backgrounds, text, accent, selection and the error / success colours. A
+Notesnook theme holds one colour scheme, so the TweedDay half ships as
+`notesnook/cosmic-tweedday.json` in cosmic-tweedday-theme; load both if you switch between
+dark and light.
+
+```text
+Notesnook → Settings → Appearance → Themes → Load from file
+→ pick notesnook/cosmic-tweed.json → Set as default
+```
 
 ---
 
