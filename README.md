@@ -215,7 +215,7 @@ Firefox and the shell layer do not follow the toggle; those are per-rice files.
 | Where | Setting |
 |-------|---------|
 | Fonts | Interface `Maple Mono Normal` Light, monospace `Maple Mono Normal NFM` |
-| Icons | Cosmic-Tweed-Tan |
+| Icons | Cosmic-Tweed-Dark |
 | Windows | Minimize / maximize buttons hidden, theme applied to GNOME apps |
 | Terminal | Maple Mono 15 (weights 500 / bold 800 / dim 300), 77% opacity, no header bar, Tweed |
 
@@ -707,13 +707,13 @@ cp btop/Tweed.theme ~/.config/btop/themes/
 Icons: **Cosmic-Tweed**, the [Kanagawa icons](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/tree/main/icons/Kanagawa)
 by Fausto Korpsvart recolored to this palette in
 [cosmic-icon-themes](https://github.com/atraxsrc/cosmic-icon-themes). Folders come in
-three colors: **Tan** ![#BDA07F](https://placehold.co/12x12/bda07f/bda07f.png) `#BDA07F` (default), **Brick** ![#E77D6C](https://placehold.co/12x12/e77d6c/e77d6c.png) `#E77D6C` and **Dark** ![#363840](https://placehold.co/12x12/363840/363840.png) `#363840` with tan symbols.
+three colors: **Tan** ![#BDA07F](https://placehold.co/12x12/bda07f/bda07f.png) `#BDA07F`, **Brick** ![#E77D6C](https://placehold.co/12x12/e77d6c/e77d6c.png) `#E77D6C` and **Dark** ![#363840](https://placehold.co/12x12/363840/363840.png) `#363840` (default) with tan symbols.
 
 ![Cosmic-Tweed folder colors](https://raw.githubusercontent.com/atraxsrc/cosmic-icon-themes/main/previews/Cosmic-Tweed.png)
 
 ```bash
-./icons/install.sh                       # Tan folders
-./icons/install.sh --variant Brick  # or Dark
+./icons/install.sh                # Dark folders
+./icons/install.sh --variant Tan  # or Brick
 ```
 
 It downloads the pack from the latest cosmic-icon-themes release, checks its SHA256,
