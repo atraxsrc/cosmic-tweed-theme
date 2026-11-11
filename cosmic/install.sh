@@ -18,6 +18,6 @@ done
 
 cat <<'EOF'
 
-Done. Needs the Maple fonts and Cosmic-Tweed icons (./icons/install.sh) installed, and the Tweed
+Done. Needs the fonts (./fonts/install.sh) and Cosmic-Tweed icons (./icons/install.sh) installed, and the Tweed
 terminal scheme imported, or COSMIC falls back to its defaults.
 EOF
